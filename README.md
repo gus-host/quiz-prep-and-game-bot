@@ -23,7 +23,7 @@ As the name implies the discord bot is a quiz prep and game bot.
 -Restarting the quiz: If users want to play again, they can simply use the !startquiz command to begin a new round.
 
 
--This is a [video demo](https://github.com/gus-host/quiz-prep-and-game-bot/blob/main/README.md) of the functionality of the quiz prep. 
+- This is a [video demo](https://github.com/gus-host/quiz-prep-and-game-bot/blob/main/README.md) of the functionality of the quiz prep. 
 - To test the bot, click [here](https://discord.gg/YnFw8Dv8) to join a channel on the server. You can also test the bot on ANY channel.
 **Note** If the bot doesnot respond after pinging and the bot is offline, please wait for like 2-3 mins for it to come live. If the issue persists click [here](https://quiz-prep-and-game-bot.onrender.com/) to be sure that the bot is online.
 
