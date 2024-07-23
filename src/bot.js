@@ -10,12 +10,12 @@ app.get('/', (req, res) => res.send('Bot is running!'));
 app.listen(port, () => console.log(`Bot is listening at http://localhost:${port}`));
 
 const client = new Client({
-    intents: [
-        GatewayIntentBits.Guilds,
-        GatewayIntentBits.GuildMessages,
-        GatewayIntentBits.MessageContent,
-        GatewayIntentBits.MessageReactions,
-    ]
+  intents: [
+    GatewayIntentBits.Guilds,
+    GatewayIntentBits.GuildMessages,
+    GatewayIntentBits.MessageContent,
+    GatewayIntentBits.GuildMessageReactions,
+  ],
 });
 
 let numberToGuess = null;
