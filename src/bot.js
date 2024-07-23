@@ -1,14 +1,21 @@
-const { Client, GatewayIntentBits } = require("discord.js");
-const quizData = require("./quizData");
-require("dotenv").config();
+const express = require('express');
+const { Client, GatewayIntentBits } = require('discord.js');
+require('dotenv').config();
+
+const app = express();
+const port = process.env.PORT || 3000;
+
+app.get('/', (req, res) => res.send('Bot is running!'));
+
+app.listen(port, () => console.log(`Bot is listening at http://localhost:${port}`));
 
 const client = new Client({
-  intents: [
-    GatewayIntentBits.Guilds,
-    GatewayIntentBits.GuildMessages,
-    GatewayIntentBits.MessageContent,
-    GatewayIntentBits.GuildMessageReactions,
-  ],
+    intents: [
+        GatewayIntentBits.Guilds,
+        GatewayIntentBits.GuildMessages,
+        GatewayIntentBits.MessageContent,
+        GatewayIntentBits.MessageReactions,
+    ]
 });
 
 let numberToGuess = null;
