@@ -1,5 +1,6 @@
 const express = require('express');
 const { Client, GatewayIntentBits } = require('discord.js');
+const quizData = require("./quizData");
 require('dotenv').config();
 
 const app = express();
