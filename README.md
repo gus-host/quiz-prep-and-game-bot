@@ -12,20 +12,20 @@ As the name implies the discord bot is a quiz prep and game bot.
 - In such a case the ping would be !C60Q1 (for campaign 60 quest 1).
 
 #### How to Play the Quiz
-**Start the quiz:** A user can start a quiz by typing !startquiz in the Discord chat. The bot will ask the first question. The user has 1 minute to answer each question by reacting with the corresponding emoji.
+**Start the quiz:** A user can start a quiz by typing `!startquiz` in the Discord chat. The bot will ask the first question. The user has 1 minute to answer each question by reacting with the corresponding emoji.
 
 **Answer a question:** Users can react with the correct emoji to answer the question (e.g., 1️⃣, 2️⃣, 3️⃣, 4️⃣). The bot will respond with whether the answer is correct and proceed to the next question.
 
 **Timer:** If the user does not answer within 1 minute, the bot will inform the user that their time is up and move to the next question.
 
-**End of the quiz:** When all questions have been answered or time is up, the bot will display the user's score and end the quiz. You can also end it by using !endquiz.
+**End of the quiz:** When all questions have been answered or time is up, the bot will display the user's score and end the quiz. You can also end it by using `!endquiz`.
 
-**Restarting the quiz:** If users want to play again, they can simply use the !startquiz command to begin a new round.
+**Restarting the quiz:** If users want to play again, they can simply use the `!startquiz` command to begin a new round.
 
 
-- This is a [video demo](https://github.com/gus-host/quiz-prep-and-game-bot/blob/main/README.md) of the functionality of the quiz prep. 
-- To test the bot, click [here](https://discord.gg/YnFw8Dv8) to join a channel on the server. You can also test the bot on ANY channel.
-- **Note** If the bot doesnot respond after pinging and the bot is offline, please wait for like 2-3 mins for it to come live. If the issue persists click [here](https://quiz-prep-and-game-bot.onrender.com/) to be sure that the bot is online.
+This is a [video demo](https://www.youtube.com/watch?v=YhOhQJxbMK4) of the functionality of the quiz prep. 
+
+To test the bot, click [here](https://discord.gg/YnFw8Dv8) to join a channel on the server. You can also test the bot on ANY channel.
 
 
 ### Game - Guess my number Game
@@ -33,22 +33,32 @@ As the name implies the discord bot is a quiz prep and game bot.
 - This is a simple but interesting game added as one of the features of the discord bot. 
 - The focus here is to help increase engagement with the bot.
 
-**How to Play the Game**
-- Start the game: A user can start a game by typing !startgame in the Discord chat. The bot will pick a random number between 1 and 100 and notify the user to start guessing. The user has 10 attempts.
+#### How to Play the Game**
 
-- Make a guess: Users can guess the number by typing !guess <number> (e.g., !guess 42). The bot will respond with whether the guess is too high, too low, or correct. The user has 1 minute to make each guess.
+**Start the game:** A user can start a game by typing !startgame in the Discord chat. The bot will pick a random number between 1 and 100 and notify the user to start guessing. The user has 10 attempts.
 
-- Timer: If the user does not guess within 1 minute, the game will end, and the bot will inform the user that their time is up.
+**Make a guess:** Users can guess the number by typing !guess <number> (e.g., !guess 42). The bot will respond with whether the guess is too high, too low, or correct. The user has 1 minute to make each guess.
 
-- Winning the game: When a user guesses the correct number, the bot will congratulate the user, and the game will end.
+**Timer:** If the user does not guess within 1 minute, the game will end, and the bot will inform the user that their time is up.
 
-- Running out of attempts: If the user runs out of attempts, the bot will inform the user and reveal the correct number, ending the game.
+**Winning the game:** When a user guesses the correct number, the bot will congratulate the user, and the game will end.
 
-- Restarting the game: If users want to play again, they can simply use the !startgame command to begin a new round.
+**Running out of attempts:** If the user runs out of attempts, the bot will inform the user and reveal the correct number, ending the game.
 
-- Ending the game: A user can end a game with the !endgame ping.
+**Restarting the game:** If users want to play again, they can simply use the !startgame command to begin a new round.
+
+**Ending the game:** A user can end a game with the !endgame ping.
+
+
+Watch the video demo [here](https://www.youtube.com/watch?v=BRMFfTkeIL0)
 
 
 
+## Second Idea: An article
+**Reason for making the article**
 
-## Second Idea: 
+I had decided to make this article to help stackies in attempting quests where they may need to run commands in their `PowerShell` terminal but given in bash or CMD in the quest. 
+
+This wAas as result of a particular quest (quest1 of the `Developing an API Server with FastAPI` campaign), where I found out that some stackies especially window users were having issues with activating a their virtual environment.
+
+So quest master - Ser Suzaku, adviced I create a  
