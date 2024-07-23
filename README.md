@@ -12,20 +12,20 @@ As the name implies the discord bot is a quiz prep and game bot.
 - In such a case the ping would be !C60Q1 (for campaign 60 quest 1).
 
 #### How to Play the Quiz
--Start the quiz: A user can start a quiz by typing !startquiz in the Discord chat. The bot will ask the first question. The user has 1 minute to answer each question by reacting with the corresponding emoji.
+**Start the quiz:** A user can start a quiz by typing !startquiz in the Discord chat. The bot will ask the first question. The user has 1 minute to answer each question by reacting with the corresponding emoji.
 
--Answer a question: Users can react with the correct emoji to answer the question (e.g., 1️⃣, 2️⃣, 3️⃣, 4️⃣). The bot will respond with whether the answer is correct and proceed to the next question.
+**Answer a question:** Users can react with the correct emoji to answer the question (e.g., 1️⃣, 2️⃣, 3️⃣, 4️⃣). The bot will respond with whether the answer is correct and proceed to the next question.
 
--Timer: If the user does not answer within 1 minute, the bot will inform the user that their time is up and move to the next question.
+**Timer:** If the user does not answer within 1 minute, the bot will inform the user that their time is up and move to the next question.
 
--End of the quiz: When all questions have been answered or time is up, the bot will display the user's score and end the quiz. You can also end it by using !endquiz.
+**End of the quiz:** When all questions have been answered or time is up, the bot will display the user's score and end the quiz. You can also end it by using !endquiz.
 
--Restarting the quiz: If users want to play again, they can simply use the !startquiz command to begin a new round.
+**Restarting the quiz:** If users want to play again, they can simply use the !startquiz command to begin a new round.
 
 
 - This is a [video demo](https://github.com/gus-host/quiz-prep-and-game-bot/blob/main/README.md) of the functionality of the quiz prep. 
 - To test the bot, click [here](https://discord.gg/YnFw8Dv8) to join a channel on the server. You can also test the bot on ANY channel.
-**Note** If the bot doesnot respond after pinging and the bot is offline, please wait for like 2-3 mins for it to come live. If the issue persists click [here](https://quiz-prep-and-game-bot.onrender.com/) to be sure that the bot is online.
+- **Note** If the bot doesnot respond after pinging and the bot is offline, please wait for like 2-3 mins for it to come live. If the issue persists click [here](https://quiz-prep-and-game-bot.onrender.com/) to be sure that the bot is online.
 
 
 ### Game - Guess my number Game
