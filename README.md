@@ -61,4 +61,6 @@ I had decided to make this article to help stackies in attempting quests where t
 
 This wAas as result of a particular quest (quest1 of the `Developing an API Server with FastAPI` campaign), where I found out that some stackies especially window users were having issues with activating a their virtual environment.
 
-So quest master - Ser Suzaku, adviced I create a  
+So quest master - Ser Suzaku, adviced I create a  an article for it 
+The article is as shown here
+https://medium.com/@obiemeriachristian/a-guide-on-how-to-use-powershell-instead-of-cmd-or-bash-to-attempt-quests-on-stackup-98c650807593
